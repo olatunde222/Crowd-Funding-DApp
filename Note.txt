@@ -1,0 +1,39 @@
+Overview:
+- A crowd funding application connected to the blockchain that can view, create and donate to a crowd funding application.
+
+Environments:
+- Client side
+- blockchain side (back end)
+
+Framework client - front end:
+- React js
+- TailwindCss
+- Vite
+- React Router
+
+
+Framework blockchain - back end:
+- thirdweb
+- solidity 
+- hardhat
+
+
+Development - Blockchain:
+- npx thirdweb@latest create --contract
+- hardhat
+- npm install dotenv
+- 
+
+Development - Client:
+- npx thirdweb create --app
+- npm install react-router-dom
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p 
+
+
+Deployment:
+- npx thirdweb deploy -k <secret key> 
+- [npx thirdweb deploy -k "Paste key from thirdweb"]
+
+Running:
+- npm run dev
